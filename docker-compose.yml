@@ -6,6 +6,6 @@ services:
     container_name: nodejs
     ports:
       - "49162:8085"
-    volumes:
-      - .:/usr/src/app
+#    volumes:
+#      - .:/usr/src/app
 #      - /var/www/html/node_modules:/usr/src/app/node_modules/
